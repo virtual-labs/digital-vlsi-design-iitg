@@ -1,0 +1,26 @@
+* Author: BIJU DAS
+* Date Created: 02 Mar 2016
+* Environment
+  - OS: Windows 7,Ubuntu-16.04,CentOS-6
+  - Browsers: Firefox-42.0,Chrome-47.0,Chromium-45.0
+  - Bandwidth : 100Mbps
+  - Hardware Configuration:8GB RAM , 
+  - Processor:i7
+
+* Objective
+  - To view the Video of the CMOS Inverter experiment
+
+* Pre conditions
+  - Refer to first test case 
+
+* Post conditions
+   - Nil
+* Test Steps
+  1. Click on the Video link 
+  2. Verify whether the video link is working fine. 
+
+* Expected result
+  1. Video page should be opened
+  2. The video should play when we click on the play button.
+
+* Review comments

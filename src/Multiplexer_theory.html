@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Virtual lab</title>
+  <meta name="description" content="free website template" />
+  <meta name="keywords" content="enter your keywords here" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=9" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/image_slide.js"></script>
+</head>
+
+<body>
+<div id="main">
+    <div id="header">
+	  <div id="banner">
+	    <div id="welcome">
+	      <h1>Shakshat Virtual Lab <img src="images/iitg-logo1.jpg" style="width:125px;height:100px" align="right"/></h1> 
+	    </div><!--close welcome-->
+	    <div id="welcome_slogan">
+	      <h1>INDIAN INSTITUTE OF TECHNOLOGY GUWAHATI</h1>
+	    </div><!--close welcome_slogan-->
+	  </div><!--close banner-->
+    </div><!--close header-->
+
+	<div id="menubar">
+      <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="ourwork.html">About</a></li>
+        <li><a href="projects.html">People</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div><!--close menubar-->	
+	<br />
+	<br />
+	<div id="menu_sub"> 4x1 Multiplexer</div>
+	<br />
+	<div id="menubar1">
+      <ul id="menu">
+	 	<li  class="current"><a href="Multiplexer_theory.html">Theory</a></li>
+        <li><a href="Multiplexer_selfevaluation.html">Self Evaluation</a></li>
+        <li><a href="Multiplexer_procedure.html">Procedure</a></li>
+        <li><a href="Multiplexer_simulator.html">Simulator</a></li>
+		<li><a href="Multiplexer_assignment.html">Assignment</a></li>
+        <li><a href="Multiplexer_reference.html">Reference</a></li>
+		<li><a href="Multiplexer_video.html">Video</a></li>
+		      </ul>
+	  </br>
+	  <div id="content_handaxe">
+	  </br>
+	  <br>
+	  <p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:justify;">The aim of this experiment is to design and plot the characteristics of a 4x1 digital multiplexer using pass transistor and transmission gate logic.</span></p>
+
+<p>&nbsp;</p>
+
+<h2 style="color:#990000">Introduction</h2>
+
+<p>&nbsp;</p>
+
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:justify;">A multiplexer or mux is a combinational circuits that selects several analog or digital input signals and forwards the selected input into a single output line. A multiplexer of 2<sup>n</sup> inputs has n selected lines, are used to select which input line to send to the output.
+</p>
+
+<p align="center"><img src= "images/5.1.png" /></p>
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:center;">Figure 2 shows how a 4:1 MUX can be constructed out of two 2:1 MUXs.</p>
+<p align="center"><img src= "images/5.2.png" /></p>
+<h2 style="color:#990000">Design using pass-transistor logic</h2>
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:justify;">A multiplexer can be designed using various logics. Fig.3 shows how a 2:1 MUX is implemented using a pass-transistor logic.<sub>GS</sub>.
+<p align="center"><img src= "images/5.3.png" /></p>
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:justify;">The pass-transistor logic attempts to reduce the number of transistors to implement a logic by allowing the primary inputs to drive gate terminals as well as source-drain terminals. The implementation of a 2:1 MUX requires 4 transistors (including the inverter required to invert S), while a complementary CMOS implementation would require 6 transistors. The reduced number of devices has the additional advantage of lower capacitance.</p>
+<br />
+<h2 style="color:#990000">Design using transmission gate logic</h2>
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:justify;">A transmission gate is an electronic element and good non mechanical relay built with CMOS technology. It is made by parallel combination of nMOS and pMOS transistors with the input at the gate of one transistor (C) being complementary to the input at the gate () of the other. The symbol of a transmission gate is shown below in fig.4.</p>
+<p align="center"><img src= "images/5.4.png" /></p>
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:justify;">The transmission gate acts as a bidirectional switch controlled by the gate signal C. When C=1, both MOSFETs are on, allowing the signal to pass through the gate. In short, A=B, if C=1. On the other hand, C=0, places both transistors in cut-off, creating an open circuit between nodes A and B. Fig.5 shows the implementation of a 2:1 MUX using transmission gate logic.</p>
+<p align="center"><img src= "images/5.5.png" /></p>
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:justify;">Here, the transmission gates selects input A or B on the basis of the value of the control signal S. When S=0, Z=A and when S=1, Z=B.</p>
+
+    </div><!--close menubar-->	
+	 <div id="footer">
+	  <a href="http://www.iitg.ernet.in">Copyright IIT GUWAHATI</a> | Developed By CSE DEPARTMENT 
+  </div><!--close footer-->  
+</body>
+</html>

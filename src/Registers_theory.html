@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Virtual lab</title>
+  <meta name="description" content="free website template" />
+  <meta name="keywords" content="enter your keywords here" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=9" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/image_slide.js"></script>
+</head>
+
+<body>
+<div id="main">
+    <div id="header">
+	  <div id="banner">
+	    <div id="welcome">
+	      <h1>Shakshat Virtual Lab <img src="images/iitg-logo1.jpg" style="width:125px;height:100px" align="right"/></h1> 
+	    </div><!--close welcome-->
+	    <div id="welcome_slogan">
+	      <h1>INDIAN INSTITUTE OF TECHNOLOGY GUWAHATI</h1>
+	    </div><!--close welcome_slogan-->
+	  </div><!--close banner-->
+    </div><!--close header-->
+
+	<div id="menubar">
+      <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="ourwork.html">About</a></li>
+        <li><a href="projects.html">People</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div><!--close menubar-->	
+	<br />
+	<br />
+	<div id="menu_sub">Registers</div>
+	<br />
+	<div id="menubar1">
+      <ul id="menu">
+	 	<li class="current"><a href="Registers_theory.html">Theory</a></li>
+        <li><a href="Registers_selfevaluation.html">Self Evaluation</a></li>
+        <li><a href="Registers_procedure.html">Procedure</a></li>
+        <li><a href="Registers_simulator.html">Simulator</a></li>
+		<li><a href="Registers_assignment.html">Assignment</a></li>
+        <li><a href="Registers_reference.html">Reference</a></li>
+		<li><a href="Registers_video.html">Video</a></li>
+		      </ul>
+	  </br>
+	  <div id="content_handaxe">
+	  </br>
+	  <br>
+	  <p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:justify;">The aim of this experiment is to design and plot the characteristics of a master-slave positive and negative edge triggered registers based on multiplexers.</span></p>
+
+<p>&nbsp;</p>
+
+<h2 style="color:#990000">MUX based Registers</h2>
+
+<p>&nbsp;</p>
+
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:justify;">A register consists of cascading a negative latch (master stage) with a positive one (slave stage). Fig. 1 shows a multiplexer-latch based implementation of register. On the low phase of the clock, the master stage is transperent, and the D input is passed to the master stage output, Q<sub>M</sub>. During this period, the slave stage is in the hold mode, keeping its previous value by using feedback. On the rising edge of the clock, the master stage stops sampling the input, and the slave stage starts sampling. During the high phase of the clock, the slave stage samples the output of the master stage (Q<sub>M</sub>), while the master stage remains in a hold mode. Since Q<sub>M</sub> is constant during the high phase of the clock, the output Q makes only one transistion per cycle. The value of Q is the value of D right before the rising edge of the clock, achieving the positive edge-triggered effect.</p>
+
+<p align="center"><img src= "images/7.1.png" /></p>
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:justify;">A negative edge-triggered register can be constructed by using the same principle by simply switching the order of the positive and negative latches (i.e., placing the positive latch first). Fig. 2 shows the transmission gate based implementation of the above register.</p>
+<p align="center"><img src= "images/7.2.png" /></p>
+
+
+    </div><!--close menubar-->	
+	 <div id="footer">
+	  <a href="http://www.iitg.ernet.in">Copyright IIT GUWAHATI</a> | Developed By CSE DEPARTMENT 
+  </div><!--close footer-->  
+</body>
+</html>

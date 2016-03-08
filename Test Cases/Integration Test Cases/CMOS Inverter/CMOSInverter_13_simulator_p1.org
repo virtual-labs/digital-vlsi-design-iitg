@@ -1,0 +1,30 @@
+* Author: BIJU DAS
+* Date Created: 02 Mar 2016
+* Environment
+  - OS: Windows 7,Ubuntu-16.04,CentOS-6
+  - Browsers: Firefox-42.0,Chrome-47.0,Chromium-45.0
+  - Bandwidth : 100Mbps
+  - Hardware Configuration:8GB RAM , 
+  - Processor:i7
+
+* Objective
+  - To perform the Experiment of the CMOS Inverter experiment
+
+* Pre conditions
+  - Refer to first test case 
+
+* Post conditions
+   - Nil
+* Test Steps
+  1. Refer to CMOSInverter_12_simulator_smk.org
+  2. Click on "CMOS Inverter static characteristics using ngSpice" link
+  3. Sign up using valid email id. After that enter username and password in the space provided and press enter.
+  4. Click on the "Simulate" button.
+
+* Expected result
+  1.Refer to CMOSInverter_12_simulator_smk.org
+  4. A login page should appear on the screen.
+  3. The experiment page should be displayed on the screen.
+  4. A plot showing the output result should be displayed.
+
+* Review comments

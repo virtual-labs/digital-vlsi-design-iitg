@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Virtual lab</title>
+  <meta name="description" content="free website template" />
+  <meta name="keywords" content="enter your keywords here" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=9" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/image_slide.js"></script>
+</head>
+
+<body>
+<div id="main">
+    <div id="header">
+	  <div id="banner">
+	    <div id="welcome">
+	      <h1>Shakshat Virtual Lab <img src="images/iitg-logo1.jpg" style="width:125px;height:100px" align="right"/></h1> 
+	    </div><!--close welcome-->
+	    <div id="welcome_slogan">
+	      <h1>INDIAN INSTITUTE OF TECHNOLOGY GUWAHATI</h1>
+	    </div><!--close welcome_slogan-->
+	  </div><!--close banner-->
+    </div><!--close header-->
+
+	<div id="menubar">
+      <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="ourwork.html">About</a></li>
+        <li><a href="projects.html">People</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div><!--close menubar-->	
+	<br />
+	<br />
+	<div id="menu_sub">CMOS Inverter</div>
+	<br />
+	<div id="menubar1" >
+      <ul id="menu">
+	 	<li class="current"><a href="CMOS_theory.html">Theory</a></li>
+        <li><a href="CMOS_selfevaluation.html">Self Evaluation</a></li>
+        <li><a href="CMOS_procedure.html">Procedure</a></li>
+        <li><a href="CMOS_simulator.html">Simulator</a></li>
+		<li><a href="CMOS_assignment.html">Assignment</a></li>
+        <li><a href="CMOS_reference.html">Reference</a></li>
+		<li><a href="CMOS_video.html">Video</a></li>
+		      </ul>
+	  </br>
+	  <div id="content_handaxe">
+	  </br>
+	  <br>
+	  <p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:justify;">The aim of this experiment is to design and plot the static (VTC) and dynamic characteristics of a digital CMOS inverter.</span></p>
+
+<p>&nbsp;</p>
+
+<h2 style="color:#990000">Introduction</h2>
+
+<p>&nbsp;</p>
+
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:justify;">The inverter is universally accepted as the most basic logic gate doing a Boolean operation on a single input variable. Fig.1 depicts the symbol, truth table and a general structure of a CMOS inverter. As shown, the simple structure consists of a combination of an pMOS transistor at the top and a nMOS transistor at the bottom.</p>
+
+<p align="center"><img src= "images/2.1.png" /></p>
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:justify;">CMOS is also sometimes referred to as <b>complementary-symmetry metal–oxide–semiconductor</b>. The words "complementary-symmetry" refer to the fact that the typical digital design style with CMOS uses complementary and symmetrical pairs of p-type and n-type metal oxide semiconductor field effect transistors (MOSFETs) for logic functions. Two important characteristics of CMOS devices are high noise immunity and low static power consumption. Significant power is only drawn while the transistors in the CMOS device are switching between on and off states. Consequently, CMOS devices do not produce as much waste heat as other forms of logic, for example transistor-transistor logic (TTL) or NMOS logic, which uses all n-channel devices without p-channel devices.</p>
+<br />
+<h2 style="color:#990000">Inverter Static Characteristics (VTC)</h2>
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:justify;">Digital inverter quality is often measured using the Voltage Transfer Curve (VTC), which is a plot of input vs. output voltage. From such a graph, device parameters including noise tolerance, gain, and operating logic-levels can be obtained.</p>
+<p align="center"><img src= "images/2.2.png" /></p>
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:justify;">Ideally, the voltage transfer curve (VTC) appears as an inverted step-function - this would indicate precise switching between on and off - but in real devices, a gradual transition region exists. The VTC indicates that for low input voltage, the circuit outputs high voltage; for high input, the output tapers off towards 0 volts. The slope of this transition region is a measure of quality - steep (close to -Infinity) slopes yield precise switching. The tolerance to noise can be measured by comparing the minimum input to the maximum output for each region of operation (on / off). This is more explicitly shown in the fig.3.</p>
+<br />
+<p align="center"><img src= "images/2.3.png" /></p>
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:justify;">Noise margin : is a parameter intimately related to the transfer characteristics. It allows one to estimate the allowable noise voltage on the input of a gate so that the output will not be affected. Noise margin (also called noise immunity) is specified in terms of two parameters - the low noise margin N<sub>L</sub>, and the high noise margin N<sub>H</sub> . Referring to above figure,  N<sub>L</sub> is defined as the difference in magnitude between the maximum LOW input voltage recognized by the driven gate and the maximum LOW output voltage of the driving gate. That is,  N<sub>L</sub> =|V<sub>IL</sub> - V<sub>OL</sub>|. Similarly, the value of N<sub>H</sub> is the difference in magnitude between the minimum HIGH output voltage of the driving gate and the minimum HIGH input voltage recognizable by the driven gate. That is, N<sub>MH</sub> =|V<sub>OH</sub> - V<sub>IH</sub>|. Where V<sub>IH</sub>|: minimum HIGH input voltage, V<sub>IL</sub>: maximum LOW input voltage, V<sub>OH</sub>: minimum HIGH output voltage, V<sub>OL</sub>: maximum LOW output voltage.</p>
+<br />
+<h2 style="color:#990000">Inverter Dynamic Characteristics</h2>
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:justify;">Fig.4 shows the dynamic characteristics of a CMOS inverter. The following are some formal definitions of temporal parameters of digital circuits. All percentages are of the steady state values. </p>
+<p align="center"><img src= "images/2.4.png" /></p>
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:justify;">Rise Time (t<sub>r</sub>) : Time taken to rise from 10% to 90%. </p>
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:justify;">Fall Time (t<sub>f</sub>): Time taken to fall from 90% to 10% </p> 
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:justify;">Edge Rate (t<sub>rf</sub>): (t<sub>r</sub> + t<sub>f</sub> )/2.</p>
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:justify;">High-to-Low propagation delay (t<sub>pHL</sub>): Time taken to fall from V<sub>OH</sub> to 50%.</p>
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:justify;">Low-to-High propagation delay (t<sub>pLH</sub>): Time taken to rise from 50% to V<sub>OL</sub>.</p> 
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:justify;">Propagation Delay (t<sub>p</sub>): (t<sub>pHL</sub> + t<sub>pLH</sub>)/2. </p>
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:justify;">Contamination Delay (t<sub>cd</sub>): Minimum time from the input crossing 50% to the output crossing 50%</p>
+
+
+
+
+    </div><!--close menubar-->	
+	 <div id="footer">
+	  <a href="http://www.iitg.ernet.in">Copyright IIT GUWAHATI</a> | Developed By CSE DEPARTMENT 
+  </div><!--close footer-->  
+</body>
+</html>

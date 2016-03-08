@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Virtual lab</title>
+  <meta name="description" content="free website template" />
+  <meta name="keywords" content="enter your keywords here" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=9" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/image_slide.js"></script>
+</head>
+
+<body>
+<div id="main">
+    <div id="header">
+	  <div id="banner">
+	    <div id="welcome">
+	      <h1>Shakshat Virtual Lab <img src="images/iitg-logo1.jpg" style="width:125px;height:100px" align="right"/></h1> 
+	    </div><!--close welcome-->
+	    <div id="welcome_slogan">
+	      <h1>INDIAN INSTITUTE OF TECHNOLOGY GUWAHATI</h1>
+	    </div><!--close welcome_slogan-->
+	  </div><!--close banner-->
+    </div><!--close header-->
+
+	<div id="menubar">
+      <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="ourwork.html">About</a></li>
+        <li><a href="projects.html">People</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div><!--close menubar-->	
+	<br />
+	<br />
+	<div id="menu_sub">Ring Oscillator</div>
+	<br />
+	<div id="menubar1" >
+      <ul id="menu">
+	 	<li class="current"><a href="RingOscillator_theory.html">Theory</a></li>
+        <li><a href="RingOscillator_selfevaluation.html">Self Evaluation</a></li>
+        <li><a href="RingOscillator_procedure.html">Procedure</a></li>
+        <li><a href="RingOscillator_simulator.html">Simulator</a></li>
+		<li><a href="RingOscillator_assignment.html">Assignment</a></li>
+        <li><a href="RingOscillator_reference.html">Reference</a></li>
+		<li><a href="RingOscillator_video.html">Video</a></li>
+		      </ul>
+	  </br>
+	  <div id="content_handaxe">
+	  </br>
+	  <br>
+	  <p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:justify;">The aim of this experiment is to design and plot the output characteristics of  3-inverter and 5-inverter ring oscillator.</span></p>
+
+<p>&nbsp;</p>
+
+<h2 style="color:#990000">Introduction</h2>
+
+<p>&nbsp;</p>
+
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:justify;">A ring oscillator is a device composed of an odd number of NOT gates whose output oscillates between two voltage levels, representing true and false. A schematic diagram of a simple three inverter ring oscillator is shown in Fig.1.</p>
+
+<p align="center"><img src= "images/3.1.png" /></p>
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:justify;">The NOT gates, or inverters, are attached in a chain; the output of the last inverter is fed back into the first. Because a single inverter computes the logical NOT of its input, it can be shown that the last output of a chain of an odd number of inverters is the logical NOT of the first input. This final output is asserted a finite amount of time after the first input is asserted; the feedback of this last output to the input causes oscillation. A real ring oscillator only requires power to operate; above a certain threshold voltage, oscillations begin spontaneously. To increase the frequency of oscillation, two methods may be used. Firstly, the applied voltage may be increased; this increases both the frequency of the oscillation and the power consumed, which is dissipated as heat.</p>
+<br />
+<h3 style="color:#990000">Operation</h3>
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:justify;">To understand the operation of a ring oscillator, one must first understand gate delay. In a physical device, no gate can switch instantaneously; in a device fabricated with MOSFETs, for example, the gate capacitance must be charged before current can flow between the source and the drain. Thus, the output of every inverter of a ring oscillator changes a finite amount of time after the input has changed. From here, it can be easily seen that adding more inverters to the chain increases the total gate delay, reducing the frequency of oscillation. The switching frequency at each gate is inversely proportional to both the number of gates in the ring and the gate delay of each individual gate. A typical simulation output for a ring oscillator is shown in Fig. 2.</p>
+<p align="center"><img src= "images/3.2.png" /></p>
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:justify;">The simulation in Fig.2 shows the "warm-up" of the inverter circuit followed by a stable frequency oscillation. The main problem of this type of oscillator is the very strong dependence of the output frequency with virtually all process parameters (like W, L etc) and operating conditions. As an example, the power supply voltage V<sub>DD</sub> has a very significant importance on the oscillating frequency. The output frequency of a 3-inverter ring oscillator can be written as 1/(6×inverter delay). Thus the propagation delay of an inverter circuit can be obtained by measuring the time period of the oscillator.</p>
+
+    </div><!--close menubar-->	
+	 <div id="footer">
+	  <a href="http://www.iitg.ernet.in">Copyright IIT GUWAHATI</a> | Developed By CSE DEPARTMENT 
+  </div><!--close footer-->  
+</body>
+</html>

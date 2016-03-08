@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Virtual lab</title>
+  <meta name="description" content="free website template" />
+  <meta name="keywords" content="enter your keywords here" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=9" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/image_slide.js"></script>
+</head>
+
+<body>
+<div id="main">
+    <div id="header">
+	  <div id="banner">
+	    <div id="welcome">
+	      <h1>Shakshat Virtual Lab <img src="images/iitg-logo1.jpg" style="width:125px;height:100px" align="right"/></h1> 
+	    </div><!--close welcome-->
+	    <div id="welcome_slogan">
+	      <h1>INDIAN INSTITUTE OF TECHNOLOGY GUWAHATI</h1>
+	    </div><!--close welcome_slogan-->
+	  </div><!--close banner-->
+    </div><!--close header-->
+
+	<div id="menubar">
+      <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="ourwork.html">About</a></li>
+        <li><a href="projects.html">People</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div><!--close menubar-->	
+	<br />
+	<br />
+	<div id="menu_sub">MOSFET</div>
+	<br />
+	<div id="menubar1">
+      <ul id="menu">
+	 	<li class="current"><a href="MOSFET_theory.html">Theory</a></li>
+        <li><a href="MOSFET_selfevaluation.html">Self Evaluation</a></li>
+        <li><a href="MOSFET_procedure.html">Procedure</a></li>
+        <li><a href="MOSFET_simulator.html">Simulator</a></li>
+		<li><a href="MOSFET_assignment.html">Assignment</a></li>
+        <li><a href="MOSFET_reference.html">Reference</a></li>
+		<li><a href="MOSFET_video.html">Video</a></li>
+		      </ul>
+	  </br>
+	  <div id="content_handaxe">
+	  </br>
+	  <br>
+	  <p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:justify;">The aim of this experiment is to plot (i) the output characteristics and, (ii) the transfer characteristics of an n-channel and p-channel MOSFET.</span></p>
+
+<p>&nbsp;</p>
+
+<h2 style="color:#990000">Introduction</h2>
+
+<p>&nbsp;</p>
+
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:justify;">The metal&ndash;oxide&ndash;semiconductor field-effect transistor (MOSFET) is a transistor used for amplifying or switching electronic signals. In MOSFETs, a voltage on the oxide-insulated gate electrode can induce a conducting channel between the two other contacts called source and drain. The channel can be of n-type or p-type, and is accordingly called an nMOSFET or a pMOSFET. Figure 1 shows the schematic diagram of the structure of an nMOS device before and after channel formation.</p>
+
+<p align="center"><img src= "images/1.1.png" /></p>
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:center;">Figure 2 shows symbols commonly used for MOSFETs where the bulk terminal is either labeled (B) or implied (not drawn).</p>
+<p align="center"><img src= "images/1.2.png" /></p>
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:center;">Fig. (2): Circuit symbols for nMOS and pMOS respectively</p>
+<h2 style="color:#990000">Output Characteristics</h2>
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:justify;">MOSFET output characteristics plot I<sub>D</sub> versus V<sub>DS</sub> for several values of V<sub>GS</sub>.
+<p align="center"><img src= "images/1.3.png" /></p>
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:justify;">The characteristics of an nMOS transistor can be explained as follows. As the voltage on the top electrode increases further, electrons are attracted to the surface. At a particular voltage level, which we will shortly define as the threshold voltage, the electron density at the surface exceeds the hole density. At this voltage, the surface has inverted from the p-type polarity of the original substrate to an n-type inversion layer, or inversion region, directly underneath the top plate as indicated in Fig. 1(b). This inversion region is an extremely shallow layer, existing as a charge sheet directly below the gate. In the MOS capacitor, the high density of electrons in the inversion layer is supplied by the electron–hole generation process within the depletion layer. The positive charge on the gate is balanced by the combination of negative charge in the inversion layer plus negative ionic acceptor charge in the depletion layer. The voltage at which the surface inversion layer just forms plays an extremely important role in field-effect transistors and is called the threshold voltage V<sub>tn</sub>. The region of output characteristics where V<sub>GS</sub>tn and no current flows is called the cutt-off region. When the channel forms in the nMOS (pMOS) transistor, a positive (negative) drain voltage with respect to the source creates a horizontal electric field moving the electrons (holes) toward the drain forming a positive (negative) drain current coming into the transistor. The positive current convention is used for electron and hole current, but in both cases electrons are the actual charge carriers. If the channel horizontal electric field is of the same order or smaller than the vertical thin oxide field, then the inversion channel remains almost uniform along the device length. This continuous carrier profile from drain to source puts the transistor in a bias state that is equivalently called either the non-saturated, linear, or ohmic bias state. The drain and source are effectively short-circuited. This happens when V<sub>GS</sub> > V<sub>DS</sub> + V<sub>tn</sub> for nMOS transistor and V<sub>GS</sub> < V<sub>DS</sub> +V<sub>tp</sub> for pMOS transistor. Drain current is linearly related to drain-source voltage over small intervals in the linear bias state.</p>
+<br />
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:justify;">But if the nMOS drain voltage increases beyond the limit, so that VGS < VDS + Vtn, then the horizontal electric field becomes stronger than the vertical field at the drain end, creating an asymmetry of the channel carrier inversion distribution shown in Figure 4.</p>
+<p align="center"><img src= "images/1.4.png" /></p>
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:center;">Fig. 4: Channel pinchoff for (a) nMOS and (b) pMOS transistor devices.</p>
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:justify;">If the drain voltage riseswhile the gate voltage remains the same, then VGD can go below the threshold voltage in the drain region. There can be no carrier inversion at the drain-gate oxide region, so the inverted portion of the channel retracts from the drain, and no longer “touches” this terminal. The pinched-off portion of the channel forms a depletion region with a high electric field. The n-drain and p-bulk form a pn junction. When this happens the inversion channel is said to be “pinched-off” and the device is in the saturation region. The characteristics can be loosely modelled by the following equations.</p>
+<p align="center"><img src= "images/1.5.png" /></p>
+<h2 style="color:#990000">Transfer Characteristics</h2>
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:justify;">The transfer characteristic relates drain current (I<sub>D</sub>) response to the input gate-source driving voltage (V<sub>GS</sub>). Since the gate terminal is electrically isolated from the remaining terminals (drain, source, and bulk), the gate current is essentially zero, so that gate current is not part of device characteristics. The transfer characteristic curve can locate the gate voltage at which the transistor passes current and leaves the OFF-state. This is the device threshold voltage (V<sub>tn</sub>). Figure 5 shows measured input characteristics for an nMOS and pMOS transistor with a small 0.1V potential across their drain to source terminals.
+<p align="center"><img src= "images/1.6.png" /></p>
+<p style="font:Arial, Helvetica, sans-serif; font-size:16px; text-align:justify;">The transistors are in their non-saturated bias states. As V<sub>GS</sub> increases for the nMOS transistor in Figure 5a, the threshold voltage is reached where drain current elevates. For V<sub>GS</sub> between 0V and 0.7V, I<sub>D</sub> is nearly zero indicating that the equivalent resistance between the drain and source terminals is extremely high. Once V<sub>GS</sub> reaches 0.7V, the current increases rapidly with V<sub>GS</sub> indicating that the equivalent resistance at the drain decreases with increasing gate-source voltage. Therefore, the threshold voltage of the given nMOS transistor is about V<sub>tn</sub> ≈ 0.7V. The pMOS transistor input characteristic in Figure 5b is analogous to the nMOS transistor except the I<sub>D</sub> and V<sub>GS</sub> polarities are reversed.</p>
+ 
+
+    </div><!--close menubar-->	
+	 <div id="footer">
+	  <a href="http://www.iitg.ernet.in">Copyright IIT GUWAHATI</a> | Developed By CSE DEPARTMENT 
+  </div><!--close footer-->  
+</body>
+</html>
