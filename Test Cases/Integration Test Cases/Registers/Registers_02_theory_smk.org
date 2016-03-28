@@ -11,7 +11,7 @@
   - To view the Theory of the Registers experiment
 
 * Pre conditions
-  - Refer to first test case 
+  - Refer to first test case [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/Test%20Cases/Integration%20Test%20Cases/Registers/Registers_01_usability_smk.org][Registers_01_usability_smk.org]]
 
 * Post conditions
    - Nil
