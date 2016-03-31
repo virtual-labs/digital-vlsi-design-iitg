@@ -1,0 +1,294 @@
+* Test Report
+** Lab Name : digital-vlsi-design-iitg
+** GitHub URL : https://github.com/Virtual-Labs/digital-vlsi-design-iitg
+** Commit ID : 4ca51ed40d01c13770c04f32f971e5c9446600fc
+
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| *Sno | Experiment Name | Test Case                                | Pass/Fail | Severity | Defect Link* |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|   1. | Registers       | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Registers/Registers_01_usability_smk.org][Registers_01_usability_smk.org]]           | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|   2. | Registers       | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Registers/Registers_02_theory_smk.org][Registers_02_theory_smk.org]]              | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|   3. | Registers       | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Registers/Registers_03_selfevaluation_smk.org][Registers_03_selfevaluation_smk.org]]      | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|   4. | Registers       | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Registers/Registers_04_selfevaluation_p1.org][Registers_04_selfevaluation_p1.org]]       | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|   5. | Registers       | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Registers/Registers_05_selfevaluation_p1.org][Registers_05_selfevaluation_p1.org]]       | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|   6. | Registers       | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Registers/Registers_06_selfevaluation_p2.org][Registers_06_selfevaluation_p2.org]]       | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|   7. | Registers       | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Registers/Registers_07_selfevaluation_p2.org][Registers_07_selfevaluation_p2.org]]       | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|   8. | Registers       | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Registers/Registers_08_selfevaluation_p1.org][Registers_08_selfevaluation_p1.org]]       | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|   9. | Registers       | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Registers/Registers_09_selfevaluation_p1.org][Registers_09_selfevaluation_p1.org]]       | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  10. | Registers       | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Registers/Registers_10_selfevaluation_p1.org][Registers_10_selfevaluation_p1.org]]       | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  11. | Registers       | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Registers/Registers_11_procedure_smk.org][Registers_11_procedure_smk.org]]           | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  12. | Registers       | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Registers/Registers_12_simulator_smk.org][Registers_12_simulator_smk.org]]           | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  13. | Registers       | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Registers/Registers_13_simulator_p1.org][Registers_13_simulator_p1.org]]            | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  14. | Registers       | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Registers/Registers_14_simulator_p2.org][Registers_14_simulator_p2.org]]            | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  15. | Registers       | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Registers/Registers_15_simulator_p1.org][Registers_15_simulator_p1.org]]            | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  16. | Registers       | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Registers/Registers_16_simulator_p2.org][Registers_16_simulator_p2.org]]            | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  17. | Registers       | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Registers/Registers_17_assignment_smk.org][Registers_17_assignment_smk.org]]          | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  18. | Registers       | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Registers/Registers_18_reference_smk.org][Registers_18_reference_smk.org]]           | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  19. | Registers       | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Registers/Registers_19_video_smk.org][Registers_19_video_smk.org]]               | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  20. | RingOscillator  | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/RingOscillator/RingOscillator_01_usability_smk.org][RingOscillator_01_usability_smk.org]]      | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  21. | RingOscillator  | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/RingOscillator/RingOscillator_02_theory_smk.org][RingOscillator_02_theory_smk.org]]         | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  22. | RingOscillator  | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/RingOscillator/RingOscillator_03_selfevaluation_smk.org][RingOscillator_03_selfevaluation_smk.org]] | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  23. | RingOscillator  | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/RingOscillator/RingOscillator_04_selfevaluation_p1.org][RingOscillator_04_selfevaluation_p1.org]]  | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  24. | RingOscillator  | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/RingOscillator/RingOscillator_05_selfevaluation_p1.org][RingOscillator_05_selfevaluation_p1.org]]  | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  25. | RingOscillator  | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/RingOscillator/RingOscillator_06_selfevaluation_p2.org][RingOscillator_06_selfevaluation_p2.org]]  | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  26. | RingOscillator  | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/RingOscillator/RingOscillator_07_selfevaluation_p2.org][RingOscillator_07_selfevaluation_p2.org]]  | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  27. | RingOscillator  | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/RingOscillator/RingOscillator_08_selfevaluation_p1.org][RingOscillator_08_selfevaluation_p1.org]]  | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  28. | RingOscillator  | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/RingOscillator/RingOscillator_09_selfevaluation_p1.org][RingOscillator_09_selfevaluation_p1.org]]  | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  29. | RingOscillator  | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/RingOscillator/RingOscillator_10_selfevaluation_p1.org][RingOscillator_10_selfevaluation_p1.org]]  | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  30. | RingOscillator  | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/RingOscillator/RingOscillator_11_procedure_smk.org][RingOscillator_11_procedure_smk.org]]      | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  31. | RingOscillator  | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/RingOscillator/RingOscillator_12_simulator_smk.org][RingOscillator_12_simulator_smk.org]]      | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  32. | RingOscillator  | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/RingOscillator/RingOscillator_13_simulator_p1.org][RingOscillator_13_simulator_p1.org]]       | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  33. | RingOscillator  | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/RingOscillator/RingOscillator_14_simulator_p2.org][RingOscillator_14_simulator_p2.org]]       | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  34. | RingOscillator  | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/RingOscillator/RingOscillator_15_simulator_p1.org][RingOscillator_15_simulator_p1.org]]       | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  35. | RingOscillator  | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/RingOscillator/RingOscillator_16_simulator_p2.org][RingOscillator_16_simulator_p2.org]]       | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  36. | RingOscillator  | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/RingOscillator/RingOscillator_17_assignment_smk.org][RingOscillator_17_assignment_smk.org]]     | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  37. | RingOscillator  | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/RingOscillator/RingOscillator_18_reference_smk.org][RingOscillator_18_reference_smk.org]]      | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  38. | RingOscillator  | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/RingOscillator/RingOscillator_19_video_smk.org][RingOscillator_19_video_smk.org]]          | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  39. | LogicGates      | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/LogicGates/LogicGates_01_usability_smk.org][LogicGates_01_usability_smk.org]]          | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  40. | LogicGates      | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/LogicGates/LogicGates_02_theory_smk.org][LogicGates_02_theory_smk.org]]             | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  41. | LogicGates      | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/LogicGates/LogicGates_03_selfevaluation_smk.org][LogicGates_03_selfevaluation_smk.org]]     | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  42. | LogicGates      | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/LogicGates/LogicGates_04_selfevaluation_p1.org][LogicGates_04_selfevaluation_p1.org]]      | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  43. | LogicGates      | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/LogicGates/LogicGates_05_selfevaluation_p1.org][LogicGates_05_selfevaluation_p1.org]]      | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  44. | LogicGates      | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/LogicGates/LogicGates_06_selfevaluation_p2.org][LogicGates_06_selfevaluation_p2.org]]      | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  45. | LogicGates      | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/LogicGates/LogicGates_07_selfevaluation_p2.org][LogicGates_07_selfevaluation_p2.org]]      | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  46. | LogicGates      | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/LogicGates/LogicGates_08_selfevaluation_p1.org][LogicGates_08_selfevaluation_p1.org]]      | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  47. | LogicGates      | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/LogicGates/LogicGates_09_selfevaluation_p1.org][LogicGates_09_selfevaluation_p1.org]]      | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  48. | LogicGates      | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/LogicGates/LogicGates_10_selfevaluation_p1.org][LogicGates_10_selfevaluation_p1.org]]      | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  49. | LogicGates      | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/LogicGates/LogicGates_11_procedure_smk.org][LogicGates_11_procedure_smk.org]]          | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  50. | LogicGates      | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/LogicGates/LogicGates_12_simulator_smk.org][LogicGates_12_simulator_smk.org]]          | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  51. | LogicGates      | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/LogicGates/LogicGates_13_simulator_p1.org][LogicGates_13_simulator_p1.org]]           | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  52. | LogicGates      | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/LogicGates/LogicGates_14_simulator_p2.org][LogicGates_14_simulator_p2.org]]           | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  53. | LogicGates      | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/LogicGates/LogicGates_15_simulator_p1.org][LogicGates_15_simulator_p1.org]]           | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  54. | LogicGates      | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/LogicGates/LogicGates_16_simulator_p2.org][LogicGates_16_simulator_p2.org]]           | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  55. | LogicGates      | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/LogicGates/LogicGates_17_simulator_p1.org][LogicGates_17_simulator_p1.org]]           | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  56. | LogicGates      | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/LogicGates/LogicGates_18_simulator_p2.org][LogicGates_18_simulator_p2.org]]           | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  57. | LogicGates      | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/LogicGates/LogicGates_19_simulator_p1.org][LogicGates_19_simulator_p1.org]]           | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  58. | LogicGates      | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/LogicGates/LogicGates_20_simulator_p2.org][LogicGates_20_simulator_p2.org]]           | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  59. | LogicGates      | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/LogicGates/LogicGates_21_assignment_smk.org][LogicGates_21_assignment_smk.org]]         | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  60. | LogicGates      | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/LogicGates/LogicGates_22_reference_smk.org][LogicGates_22_reference_smk.org]]          | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  61. | LogicGates      | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/LogicGates/LogicGates_23_video_smk.org][LogicGates_23_video_smk.org]]              | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  62. | CMOSInverter    | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/CMOSInverter/CMOSInverter_01_usability_smk.org][CMOSInverter_01_usability_smk.org]]        | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  63. | CMOSInverter    | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/CMOSInverter/CMOSInverter_02_theory_smk.org][CMOSInverter_02_theory_smk.org]]           | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  64. | CMOSInverter    | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/CMOSInverter/CMOSInverter_03_selfevaluation_smk.org][CMOSInverter_03_selfevaluation_smk.org]]   | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  65. | CMOSInverter    | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/CMOSInverter/CMOSInverter_04_selfevaluation_p1.org][CMOSInverter_04_selfevaluation_p1.org]]    | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  66. | CMOSInverter    | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/CMOSInverter/CMOSInverter_05_selfevaluation_p1.org][CMOSInverter_05_selfevaluation_p1.org]]    | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  67. | CMOSInverter    | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/CMOSInverter/CMOSInverter_06_selfevaluation_p2.org][CMOSInverter_06_selfevaluation_p2.org]]    | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  68. | CMOSInverter    | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/CMOSInverter/CMOSInverter_07_selfevaluation_p2.org][CMOSInverter_07_selfevaluation_p2.org]]    | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  69. | CMOSInverter    | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/CMOSInverter/CMOSInverter_08_selfevaluation_p1.org][CMOSInverter_08_selfevaluation_p1.org]]    | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  70. | CMOSInverter    | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/CMOSInverter/CMOSInverter_09_selfevaluation_p1.org][CMOSInverter_09_selfevaluation_p1.org]]    | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  71. | CMOSInverter    | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/CMOSInverter/CMOSInverter_10_selfevaluation_p1.org][CMOSInverter_10_selfevaluation_p1.org]]    | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  72. | CMOSInverter    | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/CMOSInverter/CMOSInverter_11_procedure_smk.org][CMOSInverter_11_procedure_smk.org]]        | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  73. | CMOSInverter    | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/CMOSInverter/CMOSInverter_12_simulator_smk.org][CMOSInverter_12_simulator_smk.org]]        | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  74. | CMOSInverter    | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/CMOSInverter/CMOSInverter_13_simulator_p1.org][CMOSInverter_13_simulator_p1.org]]         | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  75. | CMOSInverter    | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/CMOSInverter/CMOSInverter_14_simulator_p2.org][CMOSInverter_14_simulator_p2.org]]         | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  76. | CMOSInverter    | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/CMOSInverter/CMOSInverter_15_simulator_p1.org][CMOSInverter_15_simulator_p1.org]]         | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  77. | CMOSInverter    | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/CMOSInverter/CMOSInverter_16_simulator_p2.org][CMOSInverter_16_simulator_p2.org]]         | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  78. | CMOSInverter    | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/CMOSInverter/CMOSInverter_17_simulator_p1.org][CMOSInverter_17_simulator_p1.org]]         | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  79. | CMOSInverter    | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/CMOSInverter/CMOSInverter_18_simulator_p2.org][CMOSInverter_18_simulator_p2.org]]         | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  80. | CMOSInverter    | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/CMOSInverter/CMOSInverter_19_assignment_smk.org][CMOSInverter_19_assignment_smk.org]]       | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  81. | CMOSInverter    | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/CMOSInverter/CMOSInverter_20_reference_smk.org][CMOSInverter_20_reference_smk.org]]        | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  82. | CMOSInverter    | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/CMOSInverter/CMOSInverter_21_video_smk.org][CMOSInverter_21_video_smk.org]]            | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  83. | Multiplexer     | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Multiplexer/Multiplexer_01_usability_smk.org][Multiplexer_01_usability_smk.org]]         | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  84. | Multiplexer     | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Multiplexer/Multiplexer_02_theory_smk.org][Multiplexer_02_theory_smk.org]]            | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  85. | Multiplexer     | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Multiplexer/Multiplexer_03_selfevaluation_smk.org][Multiplexer_03_selfevaluation_smk.org]]    | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  86. | Multiplexer     | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Multiplexer/Multiplexer_04_selfevaluation_p1.org][Multiplexer_04_selfevaluation_p1.org]]     | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  87. | Multiplexer     | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Multiplexer/Multiplexer_05_selfevaluation_p1.org][Multiplexer_05_selfevaluation_p1.org]]     | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  88. | Multiplexer     | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Multiplexer/Multiplexer_06_selfevaluation_p2.org][Multiplexer_06_selfevaluation_p2.org]]     | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  89. | Multiplexer     | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Multiplexer/Multiplexer_07_selfevaluation_p2.org][Multiplexer_07_selfevaluation_p2.org]]     | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  90. | Multiplexer     | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Multiplexer/Multiplexer_08_selfevaluation_p1.org][Multiplexer_08_selfevaluation_p1.org]]     | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  91. | Multiplexer     | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Multiplexer/Multiplexer_09_selfevaluation_p1.org][Multiplexer_09_selfevaluation_p1.org]]     | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  92. | Multiplexer     | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Multiplexer/Multiplexer_10_selfevaluation_p1.org][Multiplexer_10_selfevaluation_p1.org]]     | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  93. | Multiplexer     | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Multiplexer/Multiplexer_11_procedure_smk.org][Multiplexer_11_procedure_smk.org]]         | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  94. | Multiplexer     | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Multiplexer/Multiplexer_12_simulator_smk.org][Multiplexer_12_simulator_smk.org]]         | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  95. | Multiplexer     | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Multiplexer/Multiplexer_13_simulator_p1.org][Multiplexer_13_simulator_p1.org]]          | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  96. | Multiplexer     | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Multiplexer/Multiplexer_14_simulator_p2.org][Multiplexer_14_simulator_p2.org]]          | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  97. | Multiplexer     | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Multiplexer/Multiplexer_15_simulator_p1.org][Multiplexer_15_simulator_p1.org]]          | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  98. | Multiplexer     | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Multiplexer/Multiplexer_16_simulator_p2.org][Multiplexer_16_simulator_p2.org]]          | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+|  99. | Multiplexer     | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Multiplexer/Multiplexer_17_assignment_smk.org][Multiplexer_17_assignment_smk.org]]        | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 100. | Multiplexer     | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Multiplexer/Multiplexer_18_reference_smk.org][Multiplexer_18_reference_smk.org]]         | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 101. | Multiplexer     | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Multiplexer/Multiplexer_19_video_smk.org][Multiplexer_19_video_smk.org]]             | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 102. | Mosfet          | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Mosfet/Mosfet_01_usability_smk.org][Mosfet_01_usability_smk.org]]              | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 103. | Mosfet          | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Mosfet/Mosfet_02_theory_smk.org][Mosfet_02_theory_smk.org]]                 | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 104. | Mosfet          | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Mosfet/Mosfet_03_selfevaluation_smk.org][Mosfet_03_selfevaluation_smk.org]]         | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 105. | Mosfet          | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Mosfet/Mosfet_04_selfevaluation_p1.org][Mosfet_04_selfevaluation_p1.org]]          | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 106. | Mosfet          | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Mosfet/Mosfet_05_selfevaluation_p1.org][Mosfet_05_selfevaluation_p1.org]]          | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 107. | Mosfet          | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Mosfet/Mosfet_06_selfevaluation_p2.org][Mosfet_06_selfevaluation_p2.org]]          | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 108. | Mosfet          | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Mosfet/Mosfet_07_selfevaluation_p2.org][Mosfet_07_selfevaluation_p2.org]]          | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 109. | Mosfet          | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Mosfet/Mosfet_08_selfevaluation_p1.org][Mosfet_08_selfevaluation_p1.org]]          | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 110. | Mosfet          | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Mosfet/Mosfet_09_selfevaluation_p1.org][Mosfet_09_selfevaluation_p1.org]]          | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 111. | Mosfet          | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Mosfet/Mosfet_10_selfevaluation_p1.org][Mosfet_10_selfevaluation_p1.org]]          | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 112. | Mosfet          | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Mosfet/Mosfet_11_procedure_smk.org][Mosfet_11_procedure_smk.org]]              | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 113. | Mosfet          | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Mosfet/Mosfet_12_simulator_smk.org][Mosfet_12_simulator_smk.org]]              | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 114. | Mosfet          | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Mosfet/Mosfet_13_simulator_p1.org][Mosfet_13_simulator_p1.org]]               | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 115. | Mosfet          | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Mosfet/Mosfet_14_simulator_p2.org][Mosfet_14_simulator_p2.org]]               | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 116. | Mosfet          | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Mosfet/Mosfet_15_simulator_p1.org][Mosfet_15_simulator_p1.org]]               | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 117. | Mosfet          | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Mosfet/Mosfet_16_simulator_p2.org][Mosfet_16_simulator_p2.org]]               | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 118. | Mosfet          | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Mosfet/Mosfet_17_simulator_p1.org][Mosfet_17_simulator_p1.org]]               | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 119. | Mosfet          | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Mosfet/Mosfet_18_simulator_p2.org][Mosfet_18_simulator_p2.org]]               | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 120. | Mosfet          | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Mosfet/Mosfet_19_simulator_p1.org][Mosfet_19_simulator_p1.org]]               | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 121. | Mosfet          | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Mosfet/Mosfet_20_simulator_p2.org][Mosfet_20_simulator_p2.org]]               | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 122. | Mosfet          | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Mosfet/Mosfet_21_assignment_smk.org][Mosfet_21_assignment_smk.org]]             | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 123. | Mosfet          | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Mosfet/Mosfet_22_reference_smk.org][Mosfet_22_reference_smk.org]]              | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 124. | Mosfet          | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Mosfet/Mosfet_23_video_smk.org][Mosfet_23_video_smk.org]]                  | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 125. | Latches         | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Latches/Latches_01_usability_smk.org][Latches_01_usability_smk.org]]             | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 126. | Latches         | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Latches/Latches_02_theory_smk.org][Latches_02_theory_smk.org]]                | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 127. | Latches         | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Latches/Latches_03_selfevaluation_smk.org][Latches_03_selfevaluation_smk.org]]        | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 128. | Latches         | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Latches/Latches_04_selfevaluation_p1.org][Latches_04_selfevaluation_p1.org]]         | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 129. | Latches         | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Latches/Latches_05_selfevaluation_p1.org][Latches_05_selfevaluation_p1.org]]         | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 130. | Latches         | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Latches/Latches_06_selfevaluation_p2.org][Latches_06_selfevaluation_p2.org]]         | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 131. | Latches         | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Latches/Latches_07_selfevaluation_p2.org][Latches_07_selfevaluation_p2.org]]         | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 132. | Latches         | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Latches/Latches_08_selfevaluation_p1.org][Latches_08_selfevaluation_p1.org]]         | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 133. | Latches         | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Latches/Latches_09_selfevaluation_p1.org][Latches_09_selfevaluation_p1.org]]         | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 134. | Latches         | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Latches/Latches_10_selfevaluation_p1.org][Latches_10_selfevaluation_p1.org]]         | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 135. | Latches         | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Latches/Latches_11_procedure_smk.org][Latches_11_procedure_smk.org]]             | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 136. | Latches         | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Latches/Latches_12_simulator_smk.org][Latches_12_simulator_smk.org]]             | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 137. | Latches         | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Latches/Latches_13_simulator_p1.org][Latches_13_simulator_p1.org]]              | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 138. | Latches         | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Latches/Latches_14_simulator_p2.org][Latches_14_simulator_p2.org]]              | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 139. | Latches         | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Latches/Latches_15_simulator_p1.org][Latches_15_simulator_p1.org]]              | PASS      | N/A      | N/A          |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 140. | Latches         | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Latches/Latches_16_simulator_p2.org][Latches_16_simulator_p2.org]]              | PASS      | N/A      |              |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 141. | Latches         | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Latches/Latches_17_assignment_smk.org][Latches_17_assignment_smk.org]]            |           |          |              |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 142. | Latches         | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Latches/Latches_18_reference_smk.org][Latches_18_reference_smk.org]]             |           |          |              |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
+| 143. | Latches         | [[https://github.com/Virtual-Labs/digital-vlsi-design-iitg/blob/master/test-cases/integration_test-cases/Latches/Latches_19_video_smk.org][Latches_19_video_smk.org]]                 |           |          |              |
+|------+-----------------+------------------------------------------+-----------+----------+--------------|
